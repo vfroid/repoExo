@@ -2,7 +2,8 @@ class Personne
 {
 public:
 	Personne();
-	SetNom(string n){nom=n;}
+	void setNom(string n){nom=n;}
+	string getNom(){return nom;}
 private:
 	string nom;
 
